@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lasanha
+    </title>
+</head>
+
+<body>
+
+    <header>
+        <a href="" class="logo">Logo</a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">Cardapio</a>
+                    <ul>
+                        <li><a href="#">Massas</a></li>
+                        <li><a href="#">Vinhos</a></li>
+                        <li><a href="#">Sobremesas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <content>
+        <div class="txt">
+            <h2>Novidades em nosso menu</h2>
+
+            <button type="button" class="btn btn-danger">
+                Menu digital
+            </button>
+        </div>
+        <div class="lasanha">
+            <img src="./lasanha.png" alt="">
+        </div>
+
+    </content>
+
+    <section>
+        <div class="texto">
+            <h3 class="col-9"></h3>
+            Cozinha italiana com massas, carnes, peixes, sopas e saladas, ponto de encontro de famílias e empresários.
+            <p>
+
+            </p>
+        </div>
+
+        <div class="horario">
+            <h2>Horario de funcionamento</h2>
+            <ul>
+                <li>Segunda 18:30-23:00</li>
+                <li>Terça 18:30-23:00</li>
+                <li>Quarta 18:30-23:00</li>
+                <li>Quinta 18:30-23:00</li>
+                <li>Sexta 18:30-23:00</li>
+                <li>Sábado 18:30-23:00</li>
+                <li> Domingo Fechado</li>
+            </ul>
+
+
+        </div>
+    </section>
+    
+    <footer>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.670660380788!2d-52.61866148495103!3d-27.103678483045673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b69ff83ebf61%3A0xe2a2595a2c61e5f8!2sRestaurante%20D&#39;It%C3%A1lia!5e0!3m2!1spt-BR!2sbr!4v1662863158698!5m2!1spt-BR!2sbr" 
+        width="400" height="200" style="border:0;" allowfullscreen="" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="cadas">
+            <h4>Cadastre-se e receba nossas orfetas</h4>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                Cadastrar
+            </button>
+
+
+
+            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+                aria-labelledby="TituloModalCentralizado" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Cadastro</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4"
+                                        placeholder="Digite seu Email">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Senha</label>
+                                    <input type="password" class="form-control" id="inputPassword4"
+                                        placeholder="Digite uma senha">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Repetir a senha</label>
+                                    <input type="password" class="form-control" id="inputPassword4"
+                                        placeholder="Repita a senha">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Li e aceito os termos de uso
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Salvar</button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+</html>
